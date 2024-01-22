@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="flex flex-col w-screen h-screen items-center font-light">
+
+    <div class="mt-[40vh] text-center">
+
+        <p class="text-2xl">Chose a move.</p>
+
+        <div class="my-6">
+            <button id="rock" class="w-24 border-2 border-black hover:-translate-y-2 hover:scale-105 duration-150 py-2 mx-3">
+                ROCK
+            </button>
+
+            <button id="paper" class="w-24 border-2 border-black hover:-translate-y-2 hover:scale-105 duration-150 py-2 mx-3">
+                PAPER
+            </button>
+
+            <button id="scissors" class="w-24 border-2 border-black hover:-translate-y-2 hover:scale-105 duration-150 py-2 mx-3">
+                SCISSORS
+            </button>
+        </div>
+
+        <div>
+
+            <p id="roundWin"></p>
+
+        </div>
+
+        <div class="flex text-gray-300 my-6 justify-center">
+
+            <p id="playerScore" class="mx-5"></p>
+
+            <p id="computerScore" class="mx-5"></p>
+
+        </div>
+
+        <div class="text-2xl">
+            <p id="matchWin"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>   
+</body>
+</html>
